@@ -40,10 +40,11 @@ export default function StatsPanel({ onFilterByStatus }) {
   return (
     <>
       <div className="stats-grid">
-        <div className="stat-card stat-total">
-          <div className="label">Total Leads</div>
-          <div className="value">{stats.total}</div>
-        </div>
+        <div className="stat-card stat-clickable" onClick={() => onFilterByStatus('')} title="Show all leads">
+        <div className="label">Total Leads</div>
+        <div className="value">{stats.total}</div>
+        <div className="stat-filter-hint">show all</div>
+      </div>
         {Object.entries(stats.byStatus).map(([status, count]) => (
           <div
             className="stat-card stat-clickable"

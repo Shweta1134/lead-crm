@@ -2,6 +2,10 @@
 
 A full-stack CRM application to manage leads for small businesses.
 
+## Live Demo
+- Frontend: https://lead-crm-opal.vercel.app
+- Backend API: https://lead-crm-backend-wxwj.onrender.com
+
 ## Tech Stack
 
 - **Frontend**: React.js + Recharts
