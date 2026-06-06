@@ -57,7 +57,7 @@ Server runs at `http://localhost:5000`
 ```bash
 cd frontend
 npm install
-npm run dev
+npm start
 ```
 
 App runs at `http://localhost:5173`
