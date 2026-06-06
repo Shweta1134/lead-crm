@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-// CRA proxy in package.json handles forwarding to localhost:5000
-const BASE = '/api/leads';
+const BASE = 'https://lead-crm-backend-wxwj.onrender.com/api/leads';
 
 export const getLeads = (params) => axios.get(BASE, { params });
 export const getStats = () => axios.get(`${BASE}/stats`);
