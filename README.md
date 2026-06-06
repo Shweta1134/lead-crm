@@ -4,7 +4,7 @@ A full-stack CRM application to manage leads for small businesses.
 
 ## Tech Stack
 
-- **Frontend**: React.js + Vite + Recharts
+- **Frontend**: React.js + Recharts
 - **Backend**: Node.js + Express.js
 - **Database**: MongoDB (Mongoose)
 
